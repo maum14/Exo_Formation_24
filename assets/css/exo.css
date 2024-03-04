@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    /* background-color: #191919; */
+}
+
+ html {font-size: 62.5%;}
+
+/* style pour le header */
+
+header{
+  
+    background-color: #101010;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+.logo {
+    width:1em;
+    height: 2em;
+    display: flex;
+    
+   
+   
+}
+
+ .nav1{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  
+
+   
+}
