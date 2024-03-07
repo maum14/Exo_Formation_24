@@ -1,0 +1,47 @@
+/* style feuille pour le header */
+@import url(reset.css);
+
+/* Lien vers la typographie */
+ @import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap'); */
+
+ :root {
+    font-size: 62.5%;
+    /* --font_Philosopher: "philosopher", "serif"; */
+}
+
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    margin: 1rem 0 1rem 0;
+}
+
+h1 {
+    font-size: 21px;
+    font-family: var(--font_Philosopher) !important;
+    color: #a45120;
+    font-weight: bolder;
+} 
+
+nav a {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-size: 15px;
+    margin: 2rem 0 auto 0;
+    text-align: center;
+    font-weight: bolder;
+    background-color: #e2e2e2;
+    padding: 10px;
+
+}   

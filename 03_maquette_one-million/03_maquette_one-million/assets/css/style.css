@@ -1,0 +1,14 @@
+nav {
+   
+}
+
+header div:nth-child(2) {
+   background-image: url("../images/hero-image.jpg");
+   background-position: center;
+   background-size: cover;
+}
+
+header div:nth-child(2) h1 div:nth-child(2) p {
+    color: #fff;
+    
+}
