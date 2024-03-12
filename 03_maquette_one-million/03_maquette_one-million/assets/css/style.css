@@ -1,3 +1,18 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+
+* {
+    text-decoration: none;
+}
+
+:root{
+    --font_Roboto_Slab: "Roboto+Slab", "serif";
+}
+
+
+
 nav {
    
 }
@@ -8,7 +23,46 @@ header div:nth-child(2) {
    background-size: cover;
 }
 
-header div:nth-child(2) h1 div:nth-child(2) p {
+header div:nth-child(2) h1{
     color: #fff;
+    font-weight: bold;
     
+    
+}
+
+ header div:nth-child(2) p {
+    color: #fff;
+    text-align: center;
+  
+}
+
+ header div:nth-child(2) div {
+    background-color: #e74c3c;
+    color: #fff;
+   
+       
+}
+ header div:nth-child(2) a {
+    color: #fff;
+}
+
+h2 {
+    color: #e74c3c;
+   
+}
+
+main > div > p {
+    font-family: var(--font_Roboto_Slab);
+    font-weight: bold;
+}
+span {
+    color: #e74c3c;
+}
+
+ main section:nth-child(2) {
+    background-color: #f8f9fa;
+}
+ 
+h3 {
+    color: #e74c3c;
 }
