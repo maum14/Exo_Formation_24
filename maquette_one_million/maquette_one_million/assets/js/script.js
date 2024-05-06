@@ -17,27 +17,29 @@ team[2].addEventListener('mouseover',()=>{
 })
 team[3].addEventListener('mouseover',()=>{
     team[3].style.backgroundImage = 'url(assets/img/tracy.jpg)';        
-
 })
 
+for (let member of team) {
+    member.addEventListener('mouseout',()=>{
+        member.style.backgroundImage = "";
+    })    
+}
 
 
+// team[0].addEventListener('mouseout',()=>{
+//     team[0].style.backgroundImage = "";
 
+// })
 
-team[0].addEventListener('mouseout',()=>{
-    team[0].style.backgroundImage = "";
+// team[1].addEventListener('mouseout',()=>{
+//     team[1].style.backgroundImage = "";
 
-})
+// })
+// team[2].addEventListener('mouseout',()=>{
+//     team[2].style.backgroundImage = "";
 
-team[1].addEventListener('mouseout',()=>{
-    team[1].style.backgroundImage = "";
+// })
+// team[3].addEventListener('mouseout',()=>{
+//     team[3].style.backgroundImage = "";
 
-})
-team[2].addEventListener('mouseout',()=>{
-    team[2].style.backgroundImage = "";
-
-})
-team[3].addEventListener('mouseout',()=>{
-    team[3].style.backgroundImage = "";
-
-})
+// })
